@@ -9,7 +9,7 @@ Once Helm has been set up correctly, add the repo as follows:
 
 ```bash
 #helm repo add pulse https://rcourtman.github.io/pulse/
-helm repo add pulse https://ampls.github.io/pulse/
+helm repo add pulse https://ampls.github.io/Pulse/
 ```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
@@ -25,7 +25,7 @@ helm install my-pulse pulse/pulse
 To install a specific pulse helm chart version in a specific namespace:
 
 ```bash
-helm install my-pulse pulse/pulse -n awx --create-namespace -f my-values.yml --version 1.3.0
+helm install my-pulse pulse/pulse -n awx --create-namespace -f my-values.yml --version 4.27.1
 ```
 
 To uninstall the chart:
