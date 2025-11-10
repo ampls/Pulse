@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  pulse:
+  - apiVersion: v2
+    appVersion: 4.27.1
+    created: "2025-11-09T02:44:00.027010915Z"
+    description: Pulse Helm Chart
+    digest: b127606028099526edf696ecff83ce12eb55a33e259472497d0fc736181cbc72
+    name: pulse
+    type: application
+    urls:
+    - https://github.com/rcourtman/Pulse/releases/download/v4.27.1/pulse-4.27.1.tgz
+    version: 4.27.1
+  - apiVersion: v2
+    appVersion: 4.26.5
+    created: "2025-11-07T20:05:00.960895637Z"
+    description: Pulse Helm Chart
+    digest: 015f4c9270f133cadea4198b4433a1caba48cf5446025ef01ec0b431e76c9de9
+    name: pulse
+    type: application
+    urls:
+    - https://github.com/rcourtman/Pulse/releases/download/v4.26.5/pulse-4.26.5.tgz
+    version: 4.26.5
+generated: "2025-11-07T20:05:00.960895637Z"
